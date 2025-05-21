@@ -15,6 +15,12 @@
 1. このリポジトリの `kindle_capture.lua` をダウンロードします。
 2. Hammerspoonの設定ディレクトリ（通常は `~/.hammerspoon/`）にファイルを配置するか、`init.lua` からこのスクリプトを `require` してください。
 
+### `require` の具体的な記述例
+```lua
+package.path = package.path .. ";/Users/任意のフォルダ/?.lua"
+require("kindle_capture")
+```
+
 ## 使い方
 1. Kindleアプリを起動し、キャプチャしたい本を開きます。
 2. 以下のホットキーでキャプチャを開始します：
