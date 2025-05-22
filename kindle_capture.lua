@@ -4,7 +4,7 @@
 -- 設定
 local kindleAppName = "Kindle"
 local screenshotFolder = os.getenv("HOME") .. "/Desktop/kindle_screens/"
-local interval = 0.5       -- 撮影間隔（秒）
+local interval = 0.3       -- 撮影間隔（秒）
 
 -- 状態管理
 local capturing = false
